@@ -11,6 +11,10 @@ public class GameManager : MonoBehaviour
         Respawn(spawnPos, target);
         Destroy(target);
     }
+    public void Death( GameObject target)
+    {
+        Destroy(target);
+    }
 
     public void Respawn(Vector3 spawnPos, GameObject target)
     {
